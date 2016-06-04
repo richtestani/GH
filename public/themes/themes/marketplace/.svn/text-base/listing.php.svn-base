@@ -1,0 +1,33 @@
+<?php
+/*
+Template: Listing
+Description: Shows a single page
+Author: Richard Testani
+*/
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Learn the path of technology - Learning with videos, article and books</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<nav>
+			
+			</nav>
+		</header>
+		<div id="content">
+			<?php
+			foreach($pages as $p)
+			{
+				echo '<h1>'.$p->title.'</h1>';
+				echo '<div class="body">';
+				echo $p->body;
+				echo '</div>';
+			}
+			?>
+		</div>
+	</div>
+</body>	
+</html>

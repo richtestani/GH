@@ -1,0 +1,10 @@
+20160604143017
+20160604143149
+$ git clone "https://richtestani:CP8-pyQ-xmB-sY7@github.com/richtestani/GH.git" "/srv/www/ghcollectables.com/x/gh/releases/20160604144257" --branch="develop" --depth="1"
+git clone "https://richtestani:CP8-pyQ-xmB-sY7@github.com/richtestani/GH.git" "/srv/www/ghcollectables.com/x/gh/releases/20160604144257" --branch="develop" --depth="1"
+Cloning into '/srv/www/ghcollectables.com/x/gh/releases/20160604144257'...
+$ cd /srv/www/ghcollectables.com/x/gh/releases/20160604144257
+$ git submodule update --init --recursive
+cd /srv/www/ghcollectables.com/x/gh/releases/20160604144257
+git submodule update --init --recursive
+No submodule mapping found in .gitmodules for path 'RichApp/vendor/league/flysystem'
