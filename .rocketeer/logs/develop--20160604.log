@@ -2,21 +2,21 @@
 20160604143149
 20160604144257
 20160604150449
-$ git clone "https://richtestani:CP8-pyQ-xmB-sY7@github.com/richtestani/GH.git" "/srv/www/ghcollectables.com/x/gh/releases/20160604152629" --branch="master" --depth="1"
-git clone "https://richtestani:CP8-pyQ-xmB-sY7@github.com/richtestani/GH.git" "/srv/www/ghcollectables.com/x/gh/releases/20160604152629" --branch="master" --depth="1"
-Cloning into '/srv/www/ghcollectables.com/x/gh/releases/20160604152629'...
-$ cd /srv/www/ghcollectables.com/x/gh/releases/20160604152629
+20160604152629
+$ git clone "https://richtestani:CP8-pyQ-xmB-sY7@github.com/richtestani/GH.git" "/srv/www/ghcollectables.com/x/gh/releases/20160604153414" --branch="master" --depth="1"
+git clone "https://richtestani:CP8-pyQ-xmB-sY7@github.com/richtestani/GH.git" "/srv/www/ghcollectables.com/x/gh/releases/20160604153414" --branch="master" --depth="1"
+Cloning into '/srv/www/ghcollectables.com/x/gh/releases/20160604153414'...
+$ cd /srv/www/ghcollectables.com/x/gh/releases/20160604153414
 $ git submodule update --init --recursive
-cd /srv/www/ghcollectables.com/x/gh/releases/20160604152629
+cd /srv/www/ghcollectables.com/x/gh/releases/20160604153414
 git submodule update --init --recursive
-
 
 
 /srv/www/ghcollectables.com/x/gh/releases/20160604152629/composer.phar
 /usr/bin/php
-$ cd /srv/www/ghcollectables.com/x/gh/releases/20160604152629
+$ cd /srv/www/ghcollectables.com/x/gh/releases/20160604153414
 $ /usr/bin/php /srv/www/ghcollectables.com/x/gh/releases/20160604152629/composer.phar install --no-interaction --no-dev --prefer-dist
-cd /srv/www/ghcollectables.com/x/gh/releases/20160604152629
+cd /srv/www/ghcollectables.com/x/gh/releases/20160604153414
 /usr/bin/php /srv/www/ghcollectables.com/x/gh/releases/20160604152629/composer.phar install --no-interaction --no-dev --prefer-dist
 Running composer as root/super user is highly discouraged as packages, plugins and scripts cannot always be trusted
 Loading composer repositories with package information
@@ -26,30 +26,30 @@ Generating autoload files
 
 
 
-$ cd /srv/www/ghcollectables.com/x/gh/releases/20160604152629
-$ chmod -R 755 /srv/www/ghcollectables.com/x/gh/releases/20160604152629/public/images
-$ chmod -R g+s /srv/www/ghcollectables.com/x/gh/releases/20160604152629/public/images
-$ chown -R www-data:www-data /srv/www/ghcollectables.com/x/gh/releases/20160604152629/public/images
-cd /srv/www/ghcollectables.com/x/gh/releases/20160604152629
-chmod -R 755 /srv/www/ghcollectables.com/x/gh/releases/20160604152629/public/images
-chmod -R g+s /srv/www/ghcollectables.com/x/gh/releases/20160604152629/public/images
-chown -R www-data:www-data /srv/www/ghcollectables.com/x/gh/releases/20160604152629/public/images
-chmod: cannot access `/srv/www/ghcollectables.com/x/gh/releases/20160604152629/public/images': No such file or directory
-$ cd /srv/www/ghcollectables.com/x/gh/releases/20160604152629
-$ chmod -R 755 /srv/www/ghcollectables.com/x/gh/releases/20160604152629/RichApp
-$ chmod -R g+s /srv/www/ghcollectables.com/x/gh/releases/20160604152629/RichApp
-$ chown -R www-data:www-data /srv/www/ghcollectables.com/x/gh/releases/20160604152629/RichApp
-cd /srv/www/ghcollectables.com/x/gh/releases/20160604152629
-chmod -R 755 /srv/www/ghcollectables.com/x/gh/releases/20160604152629/RichApp
-chmod -R g+s /srv/www/ghcollectables.com/x/gh/releases/20160604152629/RichApp
-chown -R www-data:www-data /srv/www/ghcollectables.com/x/gh/releases/20160604152629/RichApp
+$ cd /srv/www/ghcollectables.com/x/gh/releases/20160604153414
+$ chmod -R 755 /srv/www/ghcollectables.com/x/gh/releases/20160604153414/public/images
+$ chmod -R g+s /srv/www/ghcollectables.com/x/gh/releases/20160604153414/public/images
+$ chown -R www-data:www-data /srv/www/ghcollectables.com/x/gh/releases/20160604153414/public/images
+cd /srv/www/ghcollectables.com/x/gh/releases/20160604153414
+chmod -R 755 /srv/www/ghcollectables.com/x/gh/releases/20160604153414/public/images
+chmod -R g+s /srv/www/ghcollectables.com/x/gh/releases/20160604153414/public/images
+chown -R www-data:www-data /srv/www/ghcollectables.com/x/gh/releases/20160604153414/public/images
+chmod: cannot access `/srv/www/ghcollectables.com/x/gh/releases/20160604153414/public/images': No such file or directory
+$ cd /srv/www/ghcollectables.com/x/gh/releases/20160604153414
+$ chmod -R 755 /srv/www/ghcollectables.com/x/gh/releases/20160604153414/RichApp
+$ chmod -R g+s /srv/www/ghcollectables.com/x/gh/releases/20160604153414/RichApp
+$ chown -R www-data:www-data /srv/www/ghcollectables.com/x/gh/releases/20160604153414/RichApp
+cd /srv/www/ghcollectables.com/x/gh/releases/20160604153414
+chmod -R 755 /srv/www/ghcollectables.com/x/gh/releases/20160604153414/RichApp
+chmod -R g+s /srv/www/ghcollectables.com/x/gh/releases/20160604153414/RichApp
+chown -R www-data:www-data /srv/www/ghcollectables.com/x/gh/releases/20160604153414/RichApp
 
-$ rm -rf /srv/www/ghcollectables.com/x/gh/current
-rm -rf /srv/www/ghcollectables.com/x/gh/current
-
-$ ln -s /srv/www/ghcollectables.com/x/gh/releases/20160604152629 /srv/www/ghcollectables.com/x/gh/current-temp
+$ ln -s /srv/www/ghcollectables.com/x/gh/releases/20160604153414 /srv/www/ghcollectables.com/x/gh/current-temp
 $ mv -Tf /srv/www/ghcollectables.com/x/gh/current-temp /srv/www/ghcollectables.com/x/gh/current
-ln -s /srv/www/ghcollectables.com/x/gh/releases/20160604152629 /srv/www/ghcollectables.com/x/gh/current-temp
+ln -s /srv/www/ghcollectables.com/x/gh/releases/20160604153414 /srv/www/ghcollectables.com/x/gh/current-temp
 mv -Tf /srv/www/ghcollectables.com/x/gh/current-temp /srv/www/ghcollectables.com/x/gh/current
 
-|=> No releases to prune from the server
+$ rm -rf /srv/www/ghcollectables.com/x/gh/releases/20160604143017
+rm -rf /srv/www/ghcollectables.com/x/gh/releases/20160604143017
+
+|=> Removing <info>1 release</info> from the server
