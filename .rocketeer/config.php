@@ -83,7 +83,7 @@ return [
         			'root_directory' => '/srv/www/ghcollectables.com/x/'
         		],
 				'scm' => [
-					'branch' => 'develop'
+					'branch' => 'master'
 				]
         	]
         ],
